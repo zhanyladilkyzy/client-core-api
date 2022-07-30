@@ -24,7 +24,7 @@ public class ClientController {
 
     @GetMapping("/check")
     public String check(){
-        return "Controller works! " + environment.getProperty("local.server.port");
+        return "Client controller works! " + environment.getProperty("local.server.port");
     }
 
     @PostMapping
